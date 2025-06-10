@@ -1,0 +1,18 @@
+[
+    {
+        "coin": "BTC/AUD",
+        "entry": 90000,
+        "target": 94500,
+        "stoploss": 88000,
+        "result": "Success",
+        "score": 9
+    },
+    {
+        "coin": "ETH/AUD",
+        "entry": 4000,
+        "target": 4200,
+        "stoploss": 3900,
+        "result": "Active",
+        "score": 7
+    }
+]

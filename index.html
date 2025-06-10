@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crypto Trading Dashboard</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header><h1>Crypto Trading Dashboard</h1></header>
-    <main>
-        <div id="trade-list">Loading trade opportunities...</div>
-    </main>
+    <div id="app">
+        <h1>Crypto Trading Dashboard</h1>
+        <div id="login-section"></div>
+        <div id="coin-list"></div>
+        <div id="trade-history"></div>
+    </div>
     <script src="app.js"></script>
+    <script src="indicators.js"></script>
+    <script src="priceAction.js"></script>
+    <script src="tradeQuality.js"></script>
+    <script src="alerts.js"></script>
 </body>
 </html>
